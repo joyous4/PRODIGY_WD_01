@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" target="_blank" ><img src="/images/logo.png" class="logo" alt="mermaid"></a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="https://www.linkedin.com/in/joybrata-das-489681216/"target="_blank">Home</a></li>
+                <li><a href="https://www.linkedin.com/in/joybrata-das-489681216/"target="_blank">Menu</a></li>
+                <li><a href="https://www.linkedin.com/in/joybrata-das-489681216/"target="_blank">Browse More</a></li>
+                <li><a href="https://www.linkedin.com/in/joybrata-das-489681216/" target="_blank">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee <br> It's <span>JoyBucks</span></h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quisquam corrupti fuga, odio a commodi dignissimos natus tenetur sequi. Architecto fugit hic ratione molestias.</p>
+                <a class="explr" href="#">Explore</a>
+            </div>
+            <div class="imgBox">
+                <img src="/images/img1.png" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="/images/thumb1.png"onclick="imgSlider('/images/img1.png');changeColor('#017143');chngColor('#017143');expColor('#017143')"></li>
+            <li><img src="/images/thumb2.png"onclick="imgSlider('/images/img2.png');changeColor('#eb7495');chngColor('#eb7495');expColor('#eb7495')"></li>
+            <li><img src="/images/thumb3.png"onclick="imgSlider('/images/img3.png');changeColor('#d752b1');chngColor('#d752b1');expColor('#d752b1')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="/images/facebook.png"></a></li>
+            <li><a href="#"><img src="/images/twitter.png"></a></li>
+            <li><a href="#"><img src="/images/instagram.png"></a></li>
+        </ul>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
